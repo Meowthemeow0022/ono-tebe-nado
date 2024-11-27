@@ -1,1 +1,84 @@
-/* место для вашего кода */
+.header {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    letter-spacing: normal;
+   padding: 92px 50px ;
+   display: grid;
+   grid-template-columns: 1fr 148px 1fr;
+}
+.header__links-list_menu{
+    width: 391.48px;
+    height: 22px;
+   display: flex;
+   flex-direction: row;
+   gap: 30px;
+   justify-content: center;
+   align-self: center ;
+   margin-top: 44px;
+   line-height: 21.13px;
+}
+.header__links-list {
+    list-style: circle;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.logo {
+    display: block;
+    width: 148px;
+    height: 105px;
+    
+}
+.address {
+    width: 240.52px;
+    height: 98px;
+    text-underline-position: under;
+    text-align: left;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 24.3px;
+    margin-top: 5px;
+}
+
+.header_address {
+    justify-self: end;
+    align-self: center;
+}
+.header__links-list-item_no-bullet {
+    list-style: none;
+    text-decoration:none;
+}
+.cover {
+    width: 1100px;
+    height: 757px;
+    position: relative;
+    background-image: url(../images/cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+    
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #00000060;
+    z-index: 1;
+}
+.cover_title{
+    width: 1000px;
+    height: 355px;
+    padding: 165px 50px 237px;
+    font-family: "Raleway", sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    color: #FFFF;
+    z-index: 2;
+    text-transform: uppercase;
+
+}
+.aligned-text {
+    
+}
